@@ -10,5 +10,5 @@ import org.springframework.web.bind.annotation.RestController
 class HelloResource {
 
     @GetMapping(path = ["{name}"])
-    fun hello(@PathVariable("name") name: String) = "Hello $name"
+    fun hello(@PathVariable("name") name: String) = "Hellooo $name"
 }
